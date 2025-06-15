@@ -1,9 +1,26 @@
 import { Button } from "@/components/ui/button";
+import Test from "@/features/Test";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <Button className="button">Click Me</Button>
+    <div className="flex gap-4 flex-col items-center mt-7">
+      <Button className="primary" size="xs">
+        Click Me
+      </Button>
+      <Button className="destructive" variant="darkYellow">
+        Click Me
+      </Button>
+      <Button className="destructive" variant="secondary">
+        Click Me
+      </Button>
+      <Button className="destructive" variant="muted">
+        Click Me
+      </Button>
+      <Button className="destructive" variant="lightBlue">
+        Click Me
+      </Button>
+      <p className="text-red-400">joe</p>
+      <Test />
     </div>
   );
 }
