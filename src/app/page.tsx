@@ -1,5 +1,4 @@
 import { Button } from "@/components/ui/button";
-import Test from "@/features/Test";
 
 export default function Home() {
   return (
@@ -20,7 +19,6 @@ export default function Home() {
         Click Me
       </Button>
       <p className="text-red-400">joe</p>
-      <Test />
     </div>
   );
 }
